@@ -1,12 +1,39 @@
-# React + Vite
+# K72 Creative Agency
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive React-based website for K72 Creative Agency featuring smooth animations, page transitions, and an immersive user experience.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Smooth Page Transitions**: Unique stair-style animations between routes
+- **Interactive Navigation**: Full-screen navigation with hover effects
+- **Responsive Design**: Optimized for both desktop and mobile devices
+- **GSAP Animations**: Professional animations and scroll-triggered effects
+- **Modern UI/UX**: Clean, minimalist design with attention to detail
+- **React Router**: Single Page Application with client-side routing
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React 18, Vite
+- **Styling**: Tailwind CSS
+- **Animations**: GSAP (GreenSock Animation Platform)
+- **Routing**: React Router DOM
+- **Fonts**: Custom Lausanne font family
+
+## 🎬 Animation Features
+
+- **GSAP Integration**: Professional-grade animations
+- **ScrollTrigger**: Scroll-based animation triggers
+- **Custom Easing**: Smooth cubic-bezier timing functions
+- **Stagger Effects**: Sequential element animations
+- **Transform-based**: Hardware-accelerated performance
+
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd k72-agency
+```
+2. run ```npm install```
+3. run ```npm run dev```
