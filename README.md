@@ -1,12 +1,11 @@
-# K72 Creative Agency
+# K72 Creative Agency - Clone
 
-A modern, interactive React-based website for K72 Creative Agency featuring smooth animations, page transitions, and an immersive user experience.
+A modern, interactive React-based website colne of K72 Creative Agency featuring smooth animations, page transitions, and an immersive user experience.
 
 ## 🚀 Features
 
 - **Smooth Page Transitions**: Unique stair-style animations between routes
-- **Interactive Navigation**: Full-screen navigation with hover effects
-- **Responsive Design**: Optimized for both desktop and mobile devices
+- **Interactive Navigation**: Full-screen navigation with hover effects 
 - **GSAP Animations**: Professional animations and scroll-triggered effects
 - **Modern UI/UX**: Clean, minimalist design with attention to detail
 - **React Router**: Single Page Application with client-side routing
@@ -15,9 +14,7 @@ A modern, interactive React-based website for K72 Creative Agency featuring smoo
 
 - **Frontend**: React 18, Vite
 - **Styling**: Tailwind CSS
-- **Animations**: GSAP (GreenSock Animation Platform)
-- **Routing**: React Router DOM
-- **Fonts**: Custom Lausanne font family
+- **Animations**: GSAP (GreenSock Animation Platform) 
 
 ## 🎬 Animation Features
 
@@ -35,5 +32,11 @@ A modern, interactive React-based website for K72 Creative Agency featuring smoo
 git clone <repository-url>
 cd k72-agency
 ```
-2. run ```npm install```
-3. run ```npm run dev```
+2. ```bash
+    run
+    npm install
+  ```
+3.  ```bash
+    run
+    npm install
+  ```
