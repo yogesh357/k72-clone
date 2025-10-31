@@ -33,6 +33,7 @@ git clone <repository-url>
 cd k72-agency
 ```
 2.```bash
+
     run
     npm install
     npm run dev
