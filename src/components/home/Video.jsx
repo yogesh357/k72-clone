@@ -8,7 +8,7 @@ const Video = () => {
         autoPlay
         loop
         muted
-        src="public/video/home_video.mp4"
+        src="/video/home_video.mp4"
       ></video>
     </div>
   );
