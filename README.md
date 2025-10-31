@@ -28,12 +28,14 @@ A modern, interactive React-based website colne of K72 Creative Agency featuring
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone <repository-url>
 cd k72-agency
 ```
+2.
+```
+ npm install
+npm run dev
+  ```
 
-    run
-    npm install
-    npm run dev
-  ``` 
