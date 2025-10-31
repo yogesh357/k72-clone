@@ -1,0 +1,50 @@
+ 
+
+
+@import "tailwindcss";
+
+@font-face {
+  font-family: font1;
+  src: url(../public/fonts/Lausanne-300.woff2);
+}
+
+@font-face {
+  font-family: font2;
+  src: url(../public/fonts/Lausanne-500.woff2);
+}
+
+body {
+  background-color: #111;
+  color: white;
+}
+
+.moveX {
+  animation: moveAnimation 20s linear infinite;
+  display: flex;
+  align-items: center;
+}
+
+.moveLink {
+  opacity: 0;
+  transition: all ease 0.3s;
+}
+
+.link:hover .moveLink {
+  opacity: 1;
+}
+
+/* Smooth animation with proper timing */
+@keyframes moveAnimation {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Optional: Add this for even smoother animation */
+.smooth-animation {
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
