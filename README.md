@@ -32,11 +32,11 @@ A modern, interactive React-based website colne of K72 Creative Agency featuring
 git clone <repository-url>
 cd k72-agency
 ```
-2. ```bash
+2.```bash
     run
     npm install
   ```
-3.  ```bash
+3.```bash
     run
     npm install
   ```
