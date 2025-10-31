@@ -35,8 +35,5 @@ cd k72-agency
 2.```bash
     run
     npm install
-  ```
-3.```bash
-    run
-    npm install
-  ```
+    npm run dev
+  ``` 
