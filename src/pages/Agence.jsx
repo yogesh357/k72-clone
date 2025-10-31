@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
-import images from "../../imagesArray";
+import images from "../../public/imagesArray";
 
 function Agence() {
   console.log(images.length);
@@ -14,7 +14,6 @@ function Agence() {
     gsap.to(imageDivRef.current, {
       scrollTrigger: {
         trigger: imageDivRef.current,
-        markers: true,
         start: "top 34%",
         end: "top -150%",
         pin: true,

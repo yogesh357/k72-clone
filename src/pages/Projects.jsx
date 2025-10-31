@@ -1,5 +1,5 @@
 import gsap from "gsap";
-import projectImgArr from "../../projectImg";
+import projectImgArr from "../../public/projectImg";
 import ProjectCard from "../components/projects/ProjectCard";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
